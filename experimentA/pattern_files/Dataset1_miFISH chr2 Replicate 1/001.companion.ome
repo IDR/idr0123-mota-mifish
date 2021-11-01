@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:OME="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:0" Name="001">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="a488_001.tif">urn:uuid:a488_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="a594_001.tif">urn:uuid:a594_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="a700_001.tif">urn:uuid:a700_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="Cy5_001.tif">urn:uuid:Cy5_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="dapi_001.tif">urn:uuid:dapi_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="ir800_001.tif">urn:uuid:ir800_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+        <UUID FileName="tmr_001.tif">urn:uuid:tmr_001.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
