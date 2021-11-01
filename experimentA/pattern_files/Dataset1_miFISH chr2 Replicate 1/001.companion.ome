@@ -17,10 +17,10 @@
       <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
         <UUID FileName="dapi_001.tif">urn:uuid:dapi_001.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
         <UUID FileName="ir800_001.tif">urn:uuid:ir800_001.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
         <UUID FileName="tmr_001.tif">urn:uuid:tmr_001.tif</UUID>
       </TiffData>
     </Pixels>
