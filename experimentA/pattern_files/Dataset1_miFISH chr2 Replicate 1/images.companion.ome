@@ -2,7 +2,7 @@
 <OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:OME="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
   <Image ID="Image:0" Name="001">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -34,7 +34,7 @@
   </Image>
   <Image ID="Image:1" Name="002">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -66,7 +66,7 @@
   </Image>
   <Image ID="Image:2" Name="003">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -98,7 +98,7 @@
   </Image>
   <Image ID="Image:3" Name="004">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -130,7 +130,7 @@
   </Image>
   <Image ID="Image:4" Name="005">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -162,7 +162,7 @@
   </Image>
   <Image ID="Image:5" Name="006">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -194,7 +194,7 @@
   </Image>
   <Image ID="Image:6" Name="007">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -226,7 +226,7 @@
   </Image>
   <Image ID="Image:7" Name="008">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -258,7 +258,7 @@
   </Image>
   <Image ID="Image:8" Name="009">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -290,7 +290,7 @@
   </Image>
   <Image ID="Image:9" Name="010">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="95" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -322,7 +322,7 @@
   </Image>
   <Image ID="Image:10" Name="011">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -354,7 +354,7 @@
   </Image>
   <Image ID="Image:11" Name="012">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -386,7 +386,7 @@
   </Image>
   <Image ID="Image:12" Name="013">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -418,7 +418,7 @@
   </Image>
   <Image ID="Image:13" Name="014">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -450,7 +450,7 @@
   </Image>
   <Image ID="Image:14" Name="015">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -482,7 +482,7 @@
   </Image>
   <Image ID="Image:15" Name="016">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -514,7 +514,7 @@
   </Image>
   <Image ID="Image:16" Name="017">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -546,7 +546,7 @@
   </Image>
   <Image ID="Image:17" Name="018">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -578,7 +578,7 @@
   </Image>
   <Image ID="Image:18" Name="019">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -610,7 +610,7 @@
   </Image>
   <Image ID="Image:19" Name="020">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -642,7 +642,7 @@
   </Image>
   <Image ID="Image:20" Name="021">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -674,7 +674,7 @@
   </Image>
   <Image ID="Image:21" Name="022">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -706,7 +706,7 @@
   </Image>
   <Image ID="Image:22" Name="023">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -738,7 +738,7 @@
   </Image>
   <Image ID="Image:23" Name="024">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
@@ -770,7 +770,7 @@
   </Image>
   <Image ID="Image:24" Name="025">
     <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
-      <Channel Color="-16711681" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
       <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
       <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
       <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
