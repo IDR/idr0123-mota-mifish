@@ -329,25 +329,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_011.tif">urn:uuid:dataset1.a488_011.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_011.tif">urn:uuid:dataset1.AT542_011.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_011.tif">urn:uuid:dataset1.a594_011.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_011.tif">urn:uuid:dataset1.Cy5_011.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_011.tif">urn:uuid:dataset1.a700_011.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_011.tif">urn:uuid:dataset1.ir800_011.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_011.tif">urn:uuid:dataset1.dapi_011.tif</UUID>
       </TiffData>
     </Pixels>
@@ -361,25 +361,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_012.tif">urn:uuid:dataset1.a488_012.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_012.tif">urn:uuid:dataset1.AT542_012.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_012.tif">urn:uuid:dataset1.a594_012.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_012.tif">urn:uuid:dataset1.Cy5_012.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_012.tif">urn:uuid:dataset1.a700_012.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_012.tif">urn:uuid:dataset1.ir800_012.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_012.tif">urn:uuid:dataset1.dapi_012.tif</UUID>
       </TiffData>
     </Pixels>
@@ -393,25 +393,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_013.tif">urn:uuid:dataset1.a488_013.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_013.tif">urn:uuid:dataset1.AT542_013.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_013.tif">urn:uuid:dataset1.a594_013.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_013.tif">urn:uuid:dataset1.Cy5_013.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_013.tif">urn:uuid:dataset1.a700_013.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_013.tif">urn:uuid:dataset1.ir800_013.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_013.tif">urn:uuid:dataset1.dapi_013.tif</UUID>
       </TiffData>
     </Pixels>
@@ -425,25 +425,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_014.tif">urn:uuid:dataset1.a488_014.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_014.tif">urn:uuid:dataset1.AT542_014.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_014.tif">urn:uuid:dataset1.a594_014.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_014.tif">urn:uuid:dataset1.Cy5_014.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_014.tif">urn:uuid:dataset1.a700_014.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_014.tif">urn:uuid:dataset1.ir800_014.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_014.tif">urn:uuid:dataset1.dapi_014.tif</UUID>
       </TiffData>
     </Pixels>
@@ -457,25 +457,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_015.tif">urn:uuid:dataset1.a488_015.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_015.tif">urn:uuid:dataset1.AT542_015.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_015.tif">urn:uuid:dataset1.a594_015.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_015.tif">urn:uuid:dataset1.Cy5_015.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_015.tif">urn:uuid:dataset1.a700_015.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_015.tif">urn:uuid:dataset1.ir800_015.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_015.tif">urn:uuid:dataset1.dapi_015.tif</UUID>
       </TiffData>
     </Pixels>
@@ -489,25 +489,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_016.tif">urn:uuid:dataset1.a488_016.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_016.tif">urn:uuid:dataset1.AT542_016.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_016.tif">urn:uuid:dataset1.a594_016.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_016.tif">urn:uuid:dataset1.Cy5_016.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_016.tif">urn:uuid:dataset1.a700_016.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_016.tif">urn:uuid:dataset1.ir800_016.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_016.tif">urn:uuid:dataset1.dapi_016.tif</UUID>
       </TiffData>
     </Pixels>
@@ -521,25 +521,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_017.tif">urn:uuid:dataset1.a488_017.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_017.tif">urn:uuid:dataset1.AT542_017.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_017.tif">urn:uuid:dataset1.a594_017.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_017.tif">urn:uuid:dataset1.Cy5_017.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_017.tif">urn:uuid:dataset1.a700_017.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_017.tif">urn:uuid:dataset1.ir800_017.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_017.tif">urn:uuid:dataset1.dapi_017.tif</UUID>
       </TiffData>
     </Pixels>
@@ -553,25 +553,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_018.tif">urn:uuid:dataset1.a488_018.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_018.tif">urn:uuid:dataset1.AT542_018.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_018.tif">urn:uuid:dataset1.a594_018.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_018.tif">urn:uuid:dataset1.Cy5_018.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_018.tif">urn:uuid:dataset1.a700_018.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_018.tif">urn:uuid:dataset1.ir800_018.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_018.tif">urn:uuid:dataset1.dapi_018.tif</UUID>
       </TiffData>
     </Pixels>
@@ -585,25 +585,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_019.tif">urn:uuid:dataset1.a488_019.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_019.tif">urn:uuid:dataset1.AT542_019.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_019.tif">urn:uuid:dataset1.a594_019.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_019.tif">urn:uuid:dataset1.Cy5_019.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_019.tif">urn:uuid:dataset1.a700_019.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_019.tif">urn:uuid:dataset1.ir800_019.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_019.tif">urn:uuid:dataset1.dapi_019.tif</UUID>
       </TiffData>
     </Pixels>
@@ -617,25 +617,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_020.tif">urn:uuid:dataset1.a488_020.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_020.tif">urn:uuid:dataset1.AT542_020.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_020.tif">urn:uuid:dataset1.a594_020.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_020.tif">urn:uuid:dataset1.Cy5_020.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_020.tif">urn:uuid:dataset1.a700_020.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_020.tif">urn:uuid:dataset1.ir800_020.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_020.tif">urn:uuid:dataset1.dapi_020.tif</UUID>
       </TiffData>
     </Pixels>
@@ -649,25 +649,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_021.tif">urn:uuid:dataset1.a488_021.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_021.tif">urn:uuid:dataset1.AT542_021.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_021.tif">urn:uuid:dataset1.a594_021.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_021.tif">urn:uuid:dataset1.Cy5_021.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_021.tif">urn:uuid:dataset1.a700_021.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_021.tif">urn:uuid:dataset1.ir800_021.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_021.tif">urn:uuid:dataset1.dapi_021.tif</UUID>
       </TiffData>
     </Pixels>
@@ -681,25 +681,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_022.tif">urn:uuid:dataset1.a488_022.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_022.tif">urn:uuid:dataset1.AT542_022.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_022.tif">urn:uuid:dataset1.a594_022.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_022.tif">urn:uuid:dataset1.Cy5_022.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_022.tif">urn:uuid:dataset1.a700_022.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_022.tif">urn:uuid:dataset1.ir800_022.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_022.tif">urn:uuid:dataset1.dapi_022.tif</UUID>
       </TiffData>
     </Pixels>
@@ -713,25 +713,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_023.tif">urn:uuid:dataset1.a488_023.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_023.tif">urn:uuid:dataset1.AT542_023.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_023.tif">urn:uuid:dataset1.a594_023.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_023.tif">urn:uuid:dataset1.Cy5_023.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_023.tif">urn:uuid:dataset1.a700_023.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_023.tif">urn:uuid:dataset1.ir800_023.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_023.tif">urn:uuid:dataset1.dapi_023.tif</UUID>
       </TiffData>
     </Pixels>
@@ -745,25 +745,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_024.tif">urn:uuid:dataset1.a488_024.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_024.tif">urn:uuid:dataset1.AT542_024.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_024.tif">urn:uuid:dataset1.a594_024.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_024.tif">urn:uuid:dataset1.Cy5_024.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_024.tif">urn:uuid:dataset1.a700_024.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_024.tif">urn:uuid:dataset1.ir800_024.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_024.tif">urn:uuid:dataset1.dapi_024.tif</UUID>
       </TiffData>
     </Pixels>
@@ -777,25 +777,25 @@
       <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
       <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
       <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
-      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a488_025.tif">urn:uuid:dataset1.a488_025.tif</UUID>
       </TiffData>
-      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/tmr_025.tif">urn:uuid:dataset1.AT542_025.tif</UUID>
       </TiffData>
-      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a594_025.tif">urn:uuid:dataset1.a594_025.tif</UUID>
       </TiffData>
-      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/Cy5_025.tif">urn:uuid:dataset1.Cy5_025.tif</UUID>
       </TiffData>
-      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/a700_025.tif">urn:uuid:dataset1.a700_025.tif</UUID>
       </TiffData>
-      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/ir800_025.tif">urn:uuid:dataset1.ir800_025.tif</UUID>
       </TiffData>
-      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="95">
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="51">
         <UUID FileName="Dataset1_miFISH chr2 Replicate 1/dapi_025.tif">urn:uuid:dataset1.dapi_025.tif</UUID>
       </TiffData>
     </Pixels>
