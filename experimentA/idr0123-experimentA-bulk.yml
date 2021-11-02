@@ -1,0 +1,12 @@
+---
+path: "idr0123-experimentA-filePaths.tsv"
+continue: true
+transfer: "ln_s"
+exclude: "clientpath"
+skip:
+  - checksum
+  - minmax
+columns:
+  - target
+  - path
+  - name
