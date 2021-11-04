@@ -1,0 +1,1603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:OME="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:0" Name="001">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_001.tif">urn:uuid:dataset7.a488_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_001.tif">urn:uuid:dataset7.AT542_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_001.tif">urn:uuid:dataset7.a594_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_001.tif">urn:uuid:dataset7.Cy5_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_001.tif">urn:uuid:dataset7.a700_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_001.tif">urn:uuid:dataset7.ir800_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_001.tif">urn:uuid:dataset7.dapi_001.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:1" Name="002">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_002.tif">urn:uuid:dataset7.a488_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_002.tif">urn:uuid:dataset7.AT542_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_002.tif">urn:uuid:dataset7.a594_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_002.tif">urn:uuid:dataset7.Cy5_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_002.tif">urn:uuid:dataset7.a700_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_002.tif">urn:uuid:dataset7.ir800_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_002.tif">urn:uuid:dataset7.dapi_002.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:2" Name="003">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_003.tif">urn:uuid:dataset7.a488_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_003.tif">urn:uuid:dataset7.AT542_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_003.tif">urn:uuid:dataset7.a594_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_003.tif">urn:uuid:dataset7.Cy5_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_003.tif">urn:uuid:dataset7.a700_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_003.tif">urn:uuid:dataset7.ir800_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_003.tif">urn:uuid:dataset7.dapi_003.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:3" Name="004">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_004.tif">urn:uuid:dataset7.a488_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_004.tif">urn:uuid:dataset7.AT542_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_004.tif">urn:uuid:dataset7.a594_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_004.tif">urn:uuid:dataset7.Cy5_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_004.tif">urn:uuid:dataset7.a700_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_004.tif">urn:uuid:dataset7.ir800_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_004.tif">urn:uuid:dataset7.dapi_004.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:4" Name="005">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_005.tif">urn:uuid:dataset7.a488_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_005.tif">urn:uuid:dataset7.AT542_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_005.tif">urn:uuid:dataset7.a594_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_005.tif">urn:uuid:dataset7.Cy5_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_005.tif">urn:uuid:dataset7.a700_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_005.tif">urn:uuid:dataset7.ir800_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_005.tif">urn:uuid:dataset7.dapi_005.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:5" Name="006">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_006.tif">urn:uuid:dataset7.a488_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_006.tif">urn:uuid:dataset7.AT542_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_006.tif">urn:uuid:dataset7.a594_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_006.tif">urn:uuid:dataset7.Cy5_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_006.tif">urn:uuid:dataset7.a700_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_006.tif">urn:uuid:dataset7.ir800_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_006.tif">urn:uuid:dataset7.dapi_006.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:6" Name="007">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_007.tif">urn:uuid:dataset7.a488_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_007.tif">urn:uuid:dataset7.AT542_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_007.tif">urn:uuid:dataset7.a594_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_007.tif">urn:uuid:dataset7.Cy5_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_007.tif">urn:uuid:dataset7.a700_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_007.tif">urn:uuid:dataset7.ir800_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_007.tif">urn:uuid:dataset7.dapi_007.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:7" Name="008">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_008.tif">urn:uuid:dataset7.a488_008.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_008.tif">urn:uuid:dataset7.AT542_008.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_008.tif">urn:uuid:dataset7.a594_008.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_008.tif">urn:uuid:dataset7.Cy5_008.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_008.tif">urn:uuid:dataset7.a700_008.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_008.tif">urn:uuid:dataset7.ir800_008.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_008.tif">urn:uuid:dataset7.dapi_008.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:8" Name="009">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_009.tif">urn:uuid:dataset7.a488_009.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_009.tif">urn:uuid:dataset7.AT542_009.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_009.tif">urn:uuid:dataset7.a594_009.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_009.tif">urn:uuid:dataset7.Cy5_009.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_009.tif">urn:uuid:dataset7.a700_009.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_009.tif">urn:uuid:dataset7.ir800_009.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_009.tif">urn:uuid:dataset7.dapi_009.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:9" Name="010">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_010.tif">urn:uuid:dataset7.a488_010.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_010.tif">urn:uuid:dataset7.AT542_010.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_010.tif">urn:uuid:dataset7.a594_010.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_010.tif">urn:uuid:dataset7.Cy5_010.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_010.tif">urn:uuid:dataset7.a700_010.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_010.tif">urn:uuid:dataset7.ir800_010.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_010.tif">urn:uuid:dataset7.dapi_010.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:10" Name="011">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_011.tif">urn:uuid:dataset7.a488_011.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_011.tif">urn:uuid:dataset7.AT542_011.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_011.tif">urn:uuid:dataset7.a594_011.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_011.tif">urn:uuid:dataset7.Cy5_011.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_011.tif">urn:uuid:dataset7.a700_011.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_011.tif">urn:uuid:dataset7.ir800_011.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_011.tif">urn:uuid:dataset7.dapi_011.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:11" Name="012">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_012.tif">urn:uuid:dataset7.a488_012.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_012.tif">urn:uuid:dataset7.AT542_012.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_012.tif">urn:uuid:dataset7.a594_012.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_012.tif">urn:uuid:dataset7.Cy5_012.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_012.tif">urn:uuid:dataset7.a700_012.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_012.tif">urn:uuid:dataset7.ir800_012.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_012.tif">urn:uuid:dataset7.dapi_012.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:12" Name="013">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_013.tif">urn:uuid:dataset7.a488_013.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_013.tif">urn:uuid:dataset7.AT542_013.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_013.tif">urn:uuid:dataset7.a594_013.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_013.tif">urn:uuid:dataset7.Cy5_013.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_013.tif">urn:uuid:dataset7.a700_013.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_013.tif">urn:uuid:dataset7.ir800_013.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_013.tif">urn:uuid:dataset7.dapi_013.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:13" Name="014">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_014.tif">urn:uuid:dataset7.a488_014.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_014.tif">urn:uuid:dataset7.AT542_014.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_014.tif">urn:uuid:dataset7.a594_014.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_014.tif">urn:uuid:dataset7.Cy5_014.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_014.tif">urn:uuid:dataset7.a700_014.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_014.tif">urn:uuid:dataset7.ir800_014.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_014.tif">urn:uuid:dataset7.dapi_014.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:14" Name="015">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_015.tif">urn:uuid:dataset7.a488_015.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_015.tif">urn:uuid:dataset7.AT542_015.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_015.tif">urn:uuid:dataset7.a594_015.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_015.tif">urn:uuid:dataset7.Cy5_015.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_015.tif">urn:uuid:dataset7.a700_015.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_015.tif">urn:uuid:dataset7.ir800_015.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_015.tif">urn:uuid:dataset7.dapi_015.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:15" Name="016">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_016.tif">urn:uuid:dataset7.a488_016.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_016.tif">urn:uuid:dataset7.AT542_016.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_016.tif">urn:uuid:dataset7.a594_016.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_016.tif">urn:uuid:dataset7.Cy5_016.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_016.tif">urn:uuid:dataset7.a700_016.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_016.tif">urn:uuid:dataset7.ir800_016.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_016.tif">urn:uuid:dataset7.dapi_016.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:16" Name="017">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_017.tif">urn:uuid:dataset7.a488_017.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_017.tif">urn:uuid:dataset7.AT542_017.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_017.tif">urn:uuid:dataset7.a594_017.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_017.tif">urn:uuid:dataset7.Cy5_017.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_017.tif">urn:uuid:dataset7.a700_017.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_017.tif">urn:uuid:dataset7.ir800_017.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_017.tif">urn:uuid:dataset7.dapi_017.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:17" Name="018">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_018.tif">urn:uuid:dataset7.a488_018.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_018.tif">urn:uuid:dataset7.AT542_018.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_018.tif">urn:uuid:dataset7.a594_018.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_018.tif">urn:uuid:dataset7.Cy5_018.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_018.tif">urn:uuid:dataset7.a700_018.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_018.tif">urn:uuid:dataset7.ir800_018.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_018.tif">urn:uuid:dataset7.dapi_018.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:18" Name="019">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_019.tif">urn:uuid:dataset7.a488_019.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_019.tif">urn:uuid:dataset7.AT542_019.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_019.tif">urn:uuid:dataset7.a594_019.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_019.tif">urn:uuid:dataset7.Cy5_019.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_019.tif">urn:uuid:dataset7.a700_019.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_019.tif">urn:uuid:dataset7.ir800_019.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_019.tif">urn:uuid:dataset7.dapi_019.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:19" Name="020">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_020.tif">urn:uuid:dataset7.a488_020.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_020.tif">urn:uuid:dataset7.AT542_020.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_020.tif">urn:uuid:dataset7.a594_020.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_020.tif">urn:uuid:dataset7.Cy5_020.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_020.tif">urn:uuid:dataset7.a700_020.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_020.tif">urn:uuid:dataset7.ir800_020.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_020.tif">urn:uuid:dataset7.dapi_020.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:20" Name="021">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_021.tif">urn:uuid:dataset7.a488_021.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_021.tif">urn:uuid:dataset7.AT542_021.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_021.tif">urn:uuid:dataset7.a594_021.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_021.tif">urn:uuid:dataset7.Cy5_021.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_021.tif">urn:uuid:dataset7.a700_021.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_021.tif">urn:uuid:dataset7.ir800_021.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_021.tif">urn:uuid:dataset7.dapi_021.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:21" Name="022">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_022.tif">urn:uuid:dataset7.a488_022.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_022.tif">urn:uuid:dataset7.AT542_022.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_022.tif">urn:uuid:dataset7.a594_022.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_022.tif">urn:uuid:dataset7.Cy5_022.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_022.tif">urn:uuid:dataset7.a700_022.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_022.tif">urn:uuid:dataset7.ir800_022.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_022.tif">urn:uuid:dataset7.dapi_022.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:22" Name="023">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_023.tif">urn:uuid:dataset7.a488_023.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_023.tif">urn:uuid:dataset7.AT542_023.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_023.tif">urn:uuid:dataset7.a594_023.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_023.tif">urn:uuid:dataset7.Cy5_023.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_023.tif">urn:uuid:dataset7.a700_023.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_023.tif">urn:uuid:dataset7.ir800_023.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_023.tif">urn:uuid:dataset7.dapi_023.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:23" Name="024">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_024.tif">urn:uuid:dataset7.a488_024.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_024.tif">urn:uuid:dataset7.AT542_024.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_024.tif">urn:uuid:dataset7.a594_024.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_024.tif">urn:uuid:dataset7.Cy5_024.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_024.tif">urn:uuid:dataset7.a700_024.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_024.tif">urn:uuid:dataset7.ir800_024.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_024.tif">urn:uuid:dataset7.dapi_024.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:24" Name="025">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_025.tif">urn:uuid:dataset7.a488_025.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_025.tif">urn:uuid:dataset7.AT542_025.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_025.tif">urn:uuid:dataset7.a594_025.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_025.tif">urn:uuid:dataset7.Cy5_025.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_025.tif">urn:uuid:dataset7.a700_025.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_025.tif">urn:uuid:dataset7.ir800_025.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_025.tif">urn:uuid:dataset7.dapi_025.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:25" Name="026">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_026.tif">urn:uuid:dataset7.a488_026.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_026.tif">urn:uuid:dataset7.AT542_026.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_026.tif">urn:uuid:dataset7.a594_026.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_026.tif">urn:uuid:dataset7.Cy5_026.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_026.tif">urn:uuid:dataset7.a700_026.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_026.tif">urn:uuid:dataset7.ir800_026.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_026.tif">urn:uuid:dataset7.dapi_026.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:26" Name="027">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_027.tif">urn:uuid:dataset7.a488_027.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_027.tif">urn:uuid:dataset7.AT542_027.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_027.tif">urn:uuid:dataset7.a594_027.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_027.tif">urn:uuid:dataset7.Cy5_027.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_027.tif">urn:uuid:dataset7.a700_027.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_027.tif">urn:uuid:dataset7.ir800_027.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_027.tif">urn:uuid:dataset7.dapi_027.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:27" Name="028">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_028.tif">urn:uuid:dataset7.a488_028.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_028.tif">urn:uuid:dataset7.AT542_028.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_028.tif">urn:uuid:dataset7.a594_028.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_028.tif">urn:uuid:dataset7.Cy5_028.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_028.tif">urn:uuid:dataset7.a700_028.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_028.tif">urn:uuid:dataset7.ir800_028.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_003.tif">urn:uuid:dataset7.dapi_003.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:28" Name="029">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_029.tif">urn:uuid:dataset7.a488_029.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_029.tif">urn:uuid:dataset7.AT542_029.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_029.tif">urn:uuid:dataset7.a594_029.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_029.tif">urn:uuid:dataset7.Cy5_029.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_029.tif">urn:uuid:dataset7.a700_029.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_029.tif">urn:uuid:dataset7.ir800_029.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_029.tif">urn:uuid:dataset7.dapi_029.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:29" Name="030">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_030.tif">urn:uuid:dataset7.a488_030.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_030.tif">urn:uuid:dataset7.AT542_030.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_030.tif">urn:uuid:dataset7.a594_030.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_030.tif">urn:uuid:dataset7.Cy5_030.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_030.tif">urn:uuid:dataset7.a700_030.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_030.tif">urn:uuid:dataset7.ir800_030.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_030.tif">urn:uuid:dataset7.dapi_030.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:30" Name="031">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_031.tif">urn:uuid:dataset7.a488_031.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_031.tif">urn:uuid:dataset7.AT542_031.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_031.tif">urn:uuid:dataset7.a594_031.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_031.tif">urn:uuid:dataset7.Cy5_031.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_031.tif">urn:uuid:dataset7.a700_031.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_031.tif">urn:uuid:dataset7.ir800_031.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_031.tif">urn:uuid:dataset7.dapi_031.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:31" Name="032">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_032.tif">urn:uuid:dataset7.a488_032.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_032.tif">urn:uuid:dataset7.AT542_032.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_032.tif">urn:uuid:dataset7.a594_032.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_032.tif">urn:uuid:dataset7.Cy5_032.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_032.tif">urn:uuid:dataset7.a700_032.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_032.tif">urn:uuid:dataset7.ir800_032.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_032.tif">urn:uuid:dataset7.dapi_032.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:32" Name="033">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_033.tif">urn:uuid:dataset7.a488_033.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_033.tif">urn:uuid:dataset7.AT542_033.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_033.tif">urn:uuid:dataset7.a594_033.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_033.tif">urn:uuid:dataset7.Cy5_033.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_033.tif">urn:uuid:dataset7.a700_033.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_033.tif">urn:uuid:dataset7.ir800_033.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_033.tif">urn:uuid:dataset7.dapi_033.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:33" Name="034">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_034.tif">urn:uuid:dataset7.a488_034.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_034.tif">urn:uuid:dataset7.AT542_034.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_034.tif">urn:uuid:dataset7.a594_034.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_034.tif">urn:uuid:dataset7.Cy5_034.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_034.tif">urn:uuid:dataset7.a700_034.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_034.tif">urn:uuid:dataset7.ir800_034.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_034.tif">urn:uuid:dataset7.dapi_034.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:34" Name="035">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_035.tif">urn:uuid:dataset7.a488_035.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_035.tif">urn:uuid:dataset7.AT542_035.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_035.tif">urn:uuid:dataset7.a594_035.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_035.tif">urn:uuid:dataset7.Cy5_035.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_035.tif">urn:uuid:dataset7.a700_035.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_035.tif">urn:uuid:dataset7.ir800_035.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_035.tif">urn:uuid:dataset7.dapi_035.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:35" Name="036">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_036.tif">urn:uuid:dataset7.a488_036.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_036.tif">urn:uuid:dataset7.AT542_036.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_036.tif">urn:uuid:dataset7.a594_036.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_036.tif">urn:uuid:dataset7.Cy5_036.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_036.tif">urn:uuid:dataset7.a700_036.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_036.tif">urn:uuid:dataset7.ir800_036.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_036.tif">urn:uuid:dataset7.dapi_036.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:36" Name="037">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_037.tif">urn:uuid:dataset7.a488_037.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_037.tif">urn:uuid:dataset7.AT542_037.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_037.tif">urn:uuid:dataset7.a594_037.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_037.tif">urn:uuid:dataset7.Cy5_037.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_037.tif">urn:uuid:dataset7.a700_037.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_037.tif">urn:uuid:dataset7.ir800_037.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_037.tif">urn:uuid:dataset7.dapi_037.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:37" Name="038">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_038.tif">urn:uuid:dataset7.a488_038.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_038.tif">urn:uuid:dataset7.AT542_038.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_038.tif">urn:uuid:dataset7.a594_038.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_038.tif">urn:uuid:dataset7.Cy5_038.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_038.tif">urn:uuid:dataset7.a700_038.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_038.tif">urn:uuid:dataset7.ir800_038.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_038.tif">urn:uuid:dataset7.dapi_038.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:38" Name="039">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_039.tif">urn:uuid:dataset7.a488_039.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_039.tif">urn:uuid:dataset7.AT542_039.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_039.tif">urn:uuid:dataset7.a594_039.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_039.tif">urn:uuid:dataset7.Cy5_039.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_039.tif">urn:uuid:dataset7.a700_039.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_039.tif">urn:uuid:dataset7.ir800_039.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_039.tif">urn:uuid:dataset7.dapi_039.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:39" Name="040">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_040.tif">urn:uuid:dataset7.a488_040.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_040.tif">urn:uuid:dataset7.AT542_040.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_040.tif">urn:uuid:dataset7.a594_040.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_040.tif">urn:uuid:dataset7.Cy5_040.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_040.tif">urn:uuid:dataset7.a700_040.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_040.tif">urn:uuid:dataset7.ir800_040.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_040.tif">urn:uuid:dataset7.dapi_040.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:40" Name="041">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_041.tif">urn:uuid:dataset7.a488_041.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_041.tif">urn:uuid:dataset7.AT542_041.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_041.tif">urn:uuid:dataset7.a594_041.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_041.tif">urn:uuid:dataset7.Cy5_041.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_041.tif">urn:uuid:dataset7.a700_041.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_041.tif">urn:uuid:dataset7.ir800_041.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_041.tif">urn:uuid:dataset7.dapi_041.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:41" Name="042">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_042.tif">urn:uuid:dataset7.a488_042.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_042.tif">urn:uuid:dataset7.AT542_042.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_042.tif">urn:uuid:dataset7.a594_042.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_042.tif">urn:uuid:dataset7.Cy5_042.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_042.tif">urn:uuid:dataset7.a700_042.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_042.tif">urn:uuid:dataset7.ir800_042.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_042.tif">urn:uuid:dataset7.dapi_042.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:42" Name="043">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_043.tif">urn:uuid:dataset7.a488_043.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_043.tif">urn:uuid:dataset7.AT542_043.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_043.tif">urn:uuid:dataset7.a594_043.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_043.tif">urn:uuid:dataset7.Cy5_043.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_043.tif">urn:uuid:dataset7.a700_043.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_043.tif">urn:uuid:dataset7.ir800_043.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_043.tif">urn:uuid:dataset7.dapi_043.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:43" Name="044">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_044.tif">urn:uuid:dataset7.a488_044.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_044.tif">urn:uuid:dataset7.AT542_044.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_044.tif">urn:uuid:dataset7.a594_044.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_044.tif">urn:uuid:dataset7.Cy5_044.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_044.tif">urn:uuid:dataset7.a700_044.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_044.tif">urn:uuid:dataset7.ir800_044.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_044.tif">urn:uuid:dataset7.dapi_044.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:44" Name="045">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_045.tif">urn:uuid:dataset7.a488_045.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_045.tif">urn:uuid:dataset7.AT542_045.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_045.tif">urn:uuid:dataset7.a594_045.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_045.tif">urn:uuid:dataset7.Cy5_045.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_045.tif">urn:uuid:dataset7.a700_045.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_045.tif">urn:uuid:dataset7.ir800_045.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_045.tif">urn:uuid:dataset7.dapi_045.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:45" Name="046">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_046.tif">urn:uuid:dataset7.a488_046.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_046.tif">urn:uuid:dataset7.AT542_046.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_046.tif">urn:uuid:dataset7.a594_046.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_046.tif">urn:uuid:dataset7.Cy5_046.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_046.tif">urn:uuid:dataset7.a700_046.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_046.tif">urn:uuid:dataset7.ir800_046.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_046.tif">urn:uuid:dataset7.dapi_046.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:46" Name="047">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_047.tif">urn:uuid:dataset7.a488_047.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_047.tif">urn:uuid:dataset7.AT542_047.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_047.tif">urn:uuid:dataset7.a594_047.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_047.tif">urn:uuid:dataset7.Cy5_047.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_047.tif">urn:uuid:dataset7.a700_047.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_047.tif">urn:uuid:dataset7.ir800_047.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_047.tif">urn:uuid:dataset7.dapi_047.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:47" Name="048">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_048.tif">urn:uuid:dataset7.a488_048.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_048.tif">urn:uuid:dataset7.AT542_048.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_048.tif">urn:uuid:dataset7.a594_048.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_048.tif">urn:uuid:dataset7.Cy5_048.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_048.tif">urn:uuid:dataset7.a700_048.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_048.tif">urn:uuid:dataset7.ir800_048.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_048.tif">urn:uuid:dataset7.dapi_048.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:48" Name="049">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_049.tif">urn:uuid:dataset7.a488_049.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_049.tif">urn:uuid:dataset7.AT542_049.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_049.tif">urn:uuid:dataset7.a594_049.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_049.tif">urn:uuid:dataset7.Cy5_049.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_049.tif">urn:uuid:dataset7.a700_049.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_049.tif">urn:uuid:dataset7.ir800_049.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_049.tif">urn:uuid:dataset7.dapi_049.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:49" Name="050">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="7" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="71" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-16711681" ID="Channel:4" Name="AF700" SamplesPerPixel="1"/>
+      <Channel Color="65535" ID="Channel:5" Name="AF790" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:6" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a488_050.tif">urn:uuid:dataset7.a488_050.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/tmr_050.tif">urn:uuid:dataset7.AT542_050.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a594_050.tif">urn:uuid:dataset7.a594_050.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/Cy5_050.tif">urn:uuid:dataset7.Cy5_050.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/a700_050.tif">urn:uuid:dataset7.a700_050.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="5" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/ir800_050.tif">urn:uuid:dataset7.ir800_050.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="6" FirstT="0" FirstZ="0" PlaneCount="71">
+        <UUID FileName="Dataset7_iFISH chr2 spotting Replicate 2/dapi_050.tif">urn:uuid:dataset7.dapi_050.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+</OME>
