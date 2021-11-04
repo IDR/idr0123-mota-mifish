@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:OME="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+  <Image ID="Image:0" Name="001">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_001.tif">urn:uuid:dataset3.a488_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_001.tif">urn:uuid:dataset3.AT542_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_001.tif">urn:uuid:dataset3.a594_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_001.tif">urn:uuid:dataset3.Cy5_001.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_001.tif">urn:uuid:dataset3.dapi_001.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:1" Name="002">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_002.tif">urn:uuid:dataset3.a488_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_002.tif">urn:uuid:dataset3.AT542_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_002.tif">urn:uuid:dataset3.a594_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_002.tif">urn:uuid:dataset3.Cy5_002.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_002.tif">urn:uuid:dataset3.dapi_002.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:2" Name="003">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_003.tif">urn:uuid:dataset3.a488_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_003.tif">urn:uuid:dataset3.AT542_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_003.tif">urn:uuid:dataset3.a594_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_003.tif">urn:uuid:dataset3.Cy5_003.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_003.tif">urn:uuid:dataset3.dapi_003.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:3" Name="004">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_004.tif">urn:uuid:dataset3.a488_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_004.tif">urn:uuid:dataset3.AT542_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_004.tif">urn:uuid:dataset3.a594_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_004.tif">urn:uuid:dataset3.Cy5_004.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_004.tif">urn:uuid:dataset3.dapi_004.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:4" Name="005">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_005.tif">urn:uuid:dataset3.a488_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_005.tif">urn:uuid:dataset3.AT542_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_005.tif">urn:uuid:dataset3.a594_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_005.tif">urn:uuid:dataset3.Cy5_005.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_005.tif">urn:uuid:dataset3.dapi_005.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:5" Name="006">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_006.tif">urn:uuid:dataset3.a488_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_006.tif">urn:uuid:dataset3.AT542_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_006.tif">urn:uuid:dataset3.a594_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_006.tif">urn:uuid:dataset3.Cy5_006.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_006.tif">urn:uuid:dataset3.dapi_006.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  <Image ID="Image:6" Name="007">
+    <Pixels DimensionOrder="XYZCT" ID="Pixels:0:0" SizeC="5" SizeT="1" SizeX="1024" SizeY="1024" SizeZ="51" Type="uint16">
+      <Channel Color="-16776961" ID="Channel:0" Name="AF488" SamplesPerPixel="1"/>
+      <Channel Color="16711935" ID="Channel:1" Name="AT542" SamplesPerPixel="1"/>
+      <Channel Color="-65281" ID="Channel:2" Name="AF594" SamplesPerPixel="1"/>
+      <Channel Color="16777215" ID="Channel:3" Name="AT647N" SamplesPerPixel="1"/>
+      <Channel Color="-1" ID="Channel:4" Name="DAPI" SamplesPerPixel="1"/>
+      <TiffData FirstC="0" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a488_007.tif">urn:uuid:dataset3.a488_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="1" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/tmr_007.tif">urn:uuid:dataset3.AT542_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="2" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/a594_007.tif">urn:uuid:dataset3.a594_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="3" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/Cy5_007.tif">urn:uuid:dataset3.Cy5_007.tif</UUID>
+      </TiffData>
+      <TiffData FirstC="4" FirstT="0" FirstZ="0" PlaneCount="51">
+        <UUID FileName="Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N/dapi_007.tif">urn:uuid:dataset3.dapi_007.tif</UUID>
+      </TiffData>
+    </Pixels>
+  </Image>
+  </Image>
+</OME>
