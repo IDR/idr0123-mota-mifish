@@ -19,14 +19,42 @@ a Point for each row, on one of the 25 Dataset1 images
 """
 
 # project_name = "idr0123-mota-mifish/experimentA"
-dataset_name = "Dataset1_miFISH chr2 Replicate 1"
-CSV_NAME = "experimentA/coordinates/Dots_3Dcoordinates_miFISH_chr2_rep1.csv"
+DATASET_NAMES = [
+    "Dataset1_miFISH chr2 Replicate 1",
+    "Dataset2_miFISH chr2 Replicate 2",
+    "Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N",
+    "Dataset4_miFISH with one dual-color probe AT647N-AT542 and two single-color probes AF594 and AF488",
+    "Dataset5_iFISH chr1 spotting Replicate 1",
+    "Dataset6_iFISH chr2 spotting Replicate 1",
+    "Dataset7_iFISH chr2 spotting Replicate 2",
+    "Dataset8_iFISH chr10 spotting Replicate 1",
+    "Dataset9_iFISH chr10 spotting Replicate 2"
+]
+
+CSV_NAMES = [
+    "experimentA/coordinates/Dataset1_Dots_3Dcoordinates_miFISH_chr2_rep1.csv",
+    "experimentA/coordinates/Dataset2_Dots_3Dcoordinates_miFISH_chr2_rep2.csv",
+    "experimentA/coordinates/Dataset3_Dots_3Dcoordinates_miFISH_dual_colour_probe_AF594-AF488.csv",
+    "experimentA/coordinates/Dataset4_Dots_3Dcoordinates_miFISH_dual_colour_probe_AT647N-AT546.csv",
+    "experimentA/coordinates/Dataset5_Dots_3Dcoordinates_iFISH_chr1.csv",
+    "experimentA/coordinates/Dataset6_Dots_3Dcoordinates_iFISH_chr2_rep1.csv",
+    "experimentA/coordinates/Dataset7_Dots_3Dcoordinates_iFISH_chr2_rep2.csv",
+    "experimentA/coordinates/Dataset8_Dots_3Dcoordinates_iFISH_chr10_rep1.csv",
+    "experimentA/coordinates/Dataset9_Dots_3Dcoordinates_iFISH_chr10_rep2.csv"
+]
 
 
-def create_roi(updateService, image, shapes):
+probes = {
+    "a488": {"label": "AF488", "color": (255, 0, 0)},
+    "tmr": {"label": "AT542", "color": (0, 255, 0)},
+    "a594": {"label": "AF594", "color": (255, 255, 0)},
+    "Cy5": {"label": "AT647N", "color": (0, 255, 255)},
+    "a700": {"label": "AF700", "color": (255, 0, 255)},
+    "ir800": {"label": "AF790", "color": (50, 50, 255)}
+}
+
+def create_roi(updateService, image, shapes, name=None):
     roi = omero.model.RoiI()
-    # Give ROI a name if first shape has one
-    name = unwrap(shapes[0].textValue)
     if name:
         roi.name = rstring(name)
     roi.setImage(image._obj)
@@ -67,7 +95,7 @@ def populate_metadata(image, file_path, file_name):
     ctx.parse()
 
 
-def process_image(conn, image, df):
+def process_image(conn, image, df, dataset_name):
 
 
     updateService = conn.getUpdateService()
@@ -78,33 +106,54 @@ def process_image(conn, image, df):
     # Create output table with extra columns
     df2 = pandas.DataFrame(columns=(["roi", "shape"] + col_names))
 
-    # rows_by_chr = defaultdict(list)
-    # max_chr = 0
-
     print(image.name)
     cell_id = image.name.split("[")[1].replace("]", "")
     cell_id = int(cell_id)
     print("Cell ID", cell_id)
 
-    for index, row in df.loc[df["File"] == cell_id].iterrows():
-        # create an ROI with single Point for each row
-        point = omero.model.PointI()
-        # Try switching x and y...
-        point.y = rdouble(row['x'])
-        point.x = rdouble(row['y'])
-        # We don't want Python3 behaviour of rounding .5 to even number - always round up
-        point.theZ = rint(int(decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)))
+    # collect rows by Nuclei ID
+    rows_by_roi = defaultdict(list)
 
-        # TODO: better textValue
-        point.textValue = rstring(str(row['Channel']))
-        roi = create_roi(updateService, image, [point])
+    for index, row in df.loc[df["File"] == cell_id].iterrows():
+        roi_key = (100 * row['Nuclei']) + row['Label']       # e.g. 120
+        rows_by_roi[roi_key].append(row)
+
+    roi_names = list(rows_by_roi.keys())
+    roi_names.sort()
+    for roi_key in roi_names:
+        rows = rows_by_roi[roi_key]
+        points = []
+        roi_name = None
+        for row in rows:
+            # create an ROI with single Point for each row
+            point = omero.model.PointI()
+            # Try switching x and y...
+            point.y = rdouble(row['x'])
+            point.x = rdouble(row['y'])
+            # We don't want Python3 behaviour of rounding .5 to even number - always round up
+            point.theZ = rint(int(decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)))
+
+            if row['Channel'] in probes:
+                probe = probes[row['Channel']]
+                point.textValue = rstring(probe["label"])
+                point.strokeColor = rint(rgba_to_int(*probe["color"]))
+            points.append(point)
+
+            # these are the same for all Points in an ROI
+            nuclei_id = row["Nuclei"]
+            cluster = row["Label"]  # 1 or 2
+            roi_name = f'Nuclei_{nuclei_id}_{cluster}'
+        roi = create_roi(updateService, image, points, roi_name)
 
         # Need to get newly saved shape IDs
         shapes = list(roi.copyShapes())
-        print("Row: %s, added shape ID: %s" % (index, shapes[0].id.val))
-        row["roi"] = roi.id.val
-        row["shape"] = shapes[0].id.val
-        df2 = df2.append(row)
+        print("Nuclei: %s, added %s shapes" % (roi_key, len(shapes)))
+        for row, shape in zip(rows, shapes):
+            # checks that the order of shapes is same as order of rows
+            assert shape.theZ.val == decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)
+            row["roi"] = roi.id.val
+            row["shape"] = shape.id.val
+            df2 = df2.append(row)
 
     csv_name = dataset_name + ".csv"
     csv_path = os.path.join(tempfile.gettempdir(), csv_name)
@@ -120,11 +169,14 @@ def process_image(conn, image, df):
 
 def main(conn):
 
-    dataset = conn.getObject("Dataset", attributes={"name": dataset_name})
-    df = pandas.read_csv(CSV_NAME, delimiter=",")
+    for dataset_name, csv_name in zip(DATASET_NAMES, CSV_NAMES):
+        dataset = conn.getObject("Dataset", attributes={"name": dataset_name})
+        if dataset is None:
+            continue
+        df = pandas.read_csv(csv_name, delimiter=",")
 
-    for image in dataset.listChildren():
-        process_image(conn, image, df)
+        for image in dataset.listChildren():
+            process_image(conn, image, df, dataset_name)
 
 # Usage:
 # cd idr0123-mota-mifish
