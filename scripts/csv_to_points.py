@@ -97,7 +97,6 @@ def populate_metadata(image, file_path, file_name):
 
 def process_image(conn, image, df, dataset_name):
 
-
     updateService = conn.getUpdateService()
 
     col_types = [get_omero_col_type(t) for t in df.dtypes]
@@ -119,6 +118,10 @@ def process_image(conn, image, df, dataset_name):
         rows_by_roi[roi_key].append(row)
 
     roi_names = list(rows_by_roi.keys())
+    if len(roi_names) == 0:
+        print("No Rows found for Image")
+        return
+
     roi_names.sort()
     for roi_key in roi_names:
         rows = rows_by_roi[roi_key]
