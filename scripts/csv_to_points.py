@@ -32,18 +32,18 @@ DATASET_NAMES = [
 ]
 
 CSV_NAMES = [
-    "experimentA/coordinates/Dataset1_Dots_3Dcoordinates_miFISH_chr2_rep1.csv",
-    "experimentA/coordinates/Dataset2_Dots_3Dcoordinates_miFISH_chr2_rep2.csv",
-    "experimentA/coordinates/Dataset3_Dots_3Dcoordinates_miFISH_dual_colour_probe_AF594-AF488.csv",
-    "experimentA/coordinates/Dataset4_Dots_3Dcoordinates_miFISH_dual_colour_probe_AT647N-AT546.csv",
-    "experimentA/coordinates/Dataset5_Dots_3Dcoordinates_iFISH_chr1.csv",
-    "experimentA/coordinates/Dataset6_Dots_3Dcoordinates_iFISH_chr2_rep1.csv",
-    "experimentA/coordinates/Dataset7_Dots_3Dcoordinates_iFISH_chr2_rep2.csv",
-    "experimentA/coordinates/Dataset8_Dots_3Dcoordinates_iFISH_chr10_rep1.csv",
-    "experimentA/coordinates/Dataset9_Dots_3Dcoordinates_iFISH_chr10_rep2.csv"
+    "Dataset1_Dots_3Dcoordinates_miFISH_chr2_rep1.csv",
+    "Dataset2_Dots_3Dcoordinates_miFISH_chr2_rep2.csv",
+    "Dataset3_Dots_3Dcoordinates_miFISH_dual_colour_probe_AF594-AF488.csv",
+    "Dataset4_Dots_3Dcoordinates_miFISH_dual_colour_probe_AT647N-AT546.csv",
+    "Dataset5_Dots_3Dcoordinates_iFISH_chr1.csv",
+    "Dataset6_Dots_3Dcoordinates_iFISH_chr2_rep1.csv",
+    "Dataset7_Dots_3Dcoordinates_iFISH_chr2_rep2.csv",
+    "Dataset8_Dots_3Dcoordinates_iFISH_chr10_rep1.csv",
+    "Dataset9_Dots_3Dcoordinates_iFISH_chr10_rep2.csv"
 ]
 
-BED_NAME = "experimentA/BED_files/Dataset%s.bed"
+BED_NAME = "Dataset%s.bed"
 
 probes = {
     "a488": {"label": "AF488", "color": (255, 0, 0)},
@@ -91,13 +91,14 @@ def populate_metadata(image, file_path, file_name):
     """Parses csv to create OMERO.table"""
     client = image._conn.c
     ctx = ParsingContext(
-        client, image._obj, file=file_path, allow_nan=True
+        client, image._obj, file=file_path, allow_nan=True, table_name=file_name
     )
     ctx.parse()
 
 
-def process_image(conn, image, df, bed_file):
+def process_image(conn, image, df_bed):
 
+    delete_rois(conn, image)
     updateService = conn.getUpdateService()
 
     print(image.name)
@@ -109,29 +110,10 @@ def process_image(conn, image, df, bed_file):
     rows_by_roi = defaultdict(list)
 
     # Process just rows for this Image (Field of View)
-    bed_rows = bed_file[(bed_file["FoV"] == cell_id)]
+    bed_rows = df_bed[(df_bed["FoV"] == cell_id)]
     for index, row in bed_rows.iterrows():
-        x = row['x']
-        y = row['y']
-        z = row['z']
-        cell_id = row["FoV"]
-        matching_rows = df[(df["File"] == cell_id) & (df["x"] > x-0.01) & (df["x"] < x+0.01) & (df["y"] > y-0.01) & (df["y"] < y+0.01) & (df["z"] > z-0.01) & (df["z"] < z+0.01)]
-        if len(matching_rows) == 0:
-            # Bed row has no match in Dot file - Don't know 'Label' - use 3 for now.... 
-            roi_key = (100 * row['Nucleus_ID']) + 3
-            row["Label"] = "_"   # used for ROI name
-            rows_by_roi[roi_key].append(row)
-            print("NO MATCH!")
-            continue
-
-        # Need to duplicate the bed rows
-        for r_index, dot_row in matching_rows.iterrows():
-            for col in df.columns:
-                if col not in ('x', 'y', 'z', 'File', 'Nuclei'):
-                    value = dot_row[col]
-                    row[col] = value
-            roi_key = (100 * row['Nucleus_ID']) + row['Label']       # e.g. 120 (Label is 0, 1 or 2)
-            rows_by_roi[roi_key].append(row)
+        roi_key = row['Nucleus_ID']
+        rows_by_roi[roi_key].append(row)
 
     roi_names = list(rows_by_roi.keys())
     if len(roi_names) == 0:
@@ -139,7 +121,7 @@ def process_image(conn, image, df, bed_file):
         return
 
     roi_names.sort()
-    new_rows = []
+    bed_rows = []
     for roi_key in roi_names:
         rows = rows_by_roi[roi_key]
         points = []
@@ -153,16 +135,16 @@ def process_image(conn, image, df, bed_file):
             # We don't want Python3 behaviour of rounding .5 to even number - always round up
             point.theZ = rint(int(decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)))
 
-            if row['Channel'] in probes:
-                probe = probes[row['Channel']]
-                point.textValue = rstring(probe["label"])
-                point.strokeColor = rint(rgba_to_int(*probe["color"]))
+            # TODO: Maybe colour according to probe??
+            # if row['Channel'] in probes:
+            #     probe = probes[row['Channel']]
+            #     point.textValue = rstring(probe["label"])
+            #     point.strokeColor = rint(rgba_to_int(*probe["color"]))
             points.append(point)
 
             # these are the same for all Points in an ROI
             nuclei_id = row["Nucleus_ID"]
-            cluster = row["Label"]  # 0, 1 or 2
-            roi_name = f'Nuclei_{nuclei_id}_{cluster}'
+            roi_name = f'Nuclei_{nuclei_id}'
         roi = create_roi(updateService, image, points, roi_name)
 
         # Need to get newly saved shape IDs
@@ -173,52 +155,90 @@ def process_image(conn, image, df, bed_file):
             assert shape.theZ.val == decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)
             row["roi"] = roi.id.val
             row["shape"] = shape.id.val
-            new_rows.append(row)
+            row["image"] = image.id
+            bed_rows.append(row)
 
-    return new_rows
+    return bed_rows
 
 
 def main(conn):
 
     for count, dataset_name in enumerate(DATASET_NAMES):
-        csv_name = CSV_NAMES[count]
+        dots_file_name = CSV_NAMES[count]
         dataset = conn.getObject("Dataset", attributes={"name": dataset_name})
         if dataset is None:
             continue
         bed_file_name = BED_NAME % (count + 1)
-        df = pandas.read_csv(csv_name, delimiter=",")
-        bed_file = pandas.read_csv(bed_file_name, delimiter="\t")
+        df_dots = pandas.read_csv("experimentA/coordinates/" + dots_file_name, delimiter=",")
+        df_bed = pandas.read_csv("experimentA/BED_files/" + bed_file_name, delimiter="\t")
 
-        col_types = [get_omero_col_type(t) for t in bed_file.dtypes]
-        col_names = list(bed_file.columns)
-        # combine column names from bed file and dot file
-        for col_name, type in zip(df.columns, df.dtypes):
-            # ignore x,y,z duplicates, File (Fov) and Nuclei (Nucleus_ID)
-            if col_name not in ('x', 'y', 'z', 'File', 'Nuclei'):
-                col_names.append(col_name)
-                col_types.append(get_omero_col_type(type))
+        dots_col_types = [get_omero_col_type(t) for t in df_dots.dtypes]
+        dots_col_names = list(df_dots.columns)
+
+        bed_col_types = [get_omero_col_type(t) for t in df_bed.dtypes]
+        bed_col_names = list(df_bed.columns)
 
         # Create output table with extra columns
-        df2 = pandas.DataFrame(columns=(["roi", "shape"] + col_names))
+        df2_bed = pandas.DataFrame(columns=(["roi", "shape", "image"] + bed_col_names))
+        df2_dots = pandas.DataFrame(columns=(["roi", "shape", "image"] + dots_col_names))
 
         for image in dataset.listChildren():
-            rows = process_image(conn, image, df, bed_file)
-            print("Created ROWS", len(rows))
-            for row in rows:
-                df2 = df2.append(row)
+            bed_rows = process_image(conn, image, df_bed)
+            print("Created ROWS", len(bed_rows))
+            for row in bed_rows:
+                df2_bed = df2_bed.append(row)
 
-        # data has been added to df2, so we can write it...
-        csv_name = dataset_name + ".csv"
+        # data has been added to df2_bed, so we can write it...
+        csv_name = dataset_name + "_bed.csv"
         csv_path = os.path.join(tempfile.gettempdir(), csv_name)
         print("writing CSV to ", csv_path)
         # Add # header roi, shape, other-col-types...
         with open(csv_path, "w") as csv_out:
-            csv_out.write("# header roi,l," + ",".join(col_types) + "\n")
-
-        df2.to_csv(csv_path, mode="a", index=False)
-
+            csv_out.write("# header roi,l,l," + ",".join(bed_col_types) + "\n")
+        df2_bed.to_csv(csv_path, mode="a", index=False)
         # Create OMERO.table from csv
-        populate_metadata(dataset, csv_path, csv_name)
+        populate_metadata(dataset, csv_path, bed_file_name)
+
+        # For every row in Dots file, see if it matches a row in the BED file
+        for image in dataset.listChildren():
+            cell_id = image.name.split("[")[1].replace("]", "")
+            cell_id = int(cell_id)
+            print("Cell ID", cell_id)
+            # Process just rows for this Image (Field of View)
+            dots_rows = df_dots[(df_dots["File"] == cell_id)]
+            for index, row in dots_rows.iterrows():
+
+                x = row['x']
+                y = row['y']
+                z = row['z']
+                matching_rows = df2_bed[(df2_bed["FoV"] == cell_id) & (df2_bed["x"] > x-0.01) & (df2_bed["x"] < x+0.01) & (df2_bed["y"] > y-0.01) & (df2_bed["y"] < y+0.01) & (df2_bed["z"] > z-0.01) & (df2_bed["z"] < z+0.01)]
+
+                row['image'] = image.id
+                # placeholder values... Otherwise table creation fails with
+                # ValueError: invalid value for element 4 of sequence<long>
+                row['roi'] = -1
+                row['shape'] = -1
+
+                if len(matching_rows) > 1:
+                    print("---------- Multiple BED rows found for DOT!!--------------")
+                # Find roi, shape and iamge ID
+                for r_index, bed_row in matching_rows.iterrows():
+                    for col in ['roi', 'shape']:
+                        value = bed_row[col]
+                        row[col] = value
+                df2_dots = df2_dots.append(row)
+
+        # data has been added to df2_dots, so we can write it...
+        csv_name = dataset_name + "_dots.csv"
+        csv_path = os.path.join(tempfile.gettempdir(), csv_name)
+        print("writing CSV to ", csv_path)
+        # Add # header roi, shape, other-col-types...
+        with open(csv_path, "w") as csv_out:
+            csv_out.write("# header roi,l,l," + ",".join(dots_col_types) + "\n")
+        df2_dots.to_csv(csv_path, mode="a", index=False)
+        # Create OMERO.table from csv
+        populate_metadata(dataset, csv_path, dots_file_name.replace(".csv", ""))
+
 
 # Usage:
 # cd idr0123-mota-mifish
