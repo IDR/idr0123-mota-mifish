@@ -194,7 +194,7 @@ def main(conn):
         print("writing CSV to ", csv_path)
         # Add # header roi, shape, other-col-types...
         with open(csv_path, "w") as csv_out:
-            csv_out.write("# header roi,l,l," + ",".join(bed_col_types) + "\n")
+            csv_out.write("# header roi,l,image," + ",".join(bed_col_types) + "\n")
         df2_bed.to_csv(csv_path, mode="a", index=False)
         # Create OMERO.table from csv
         populate_metadata(dataset, csv_path, bed_file_name)
@@ -234,7 +234,7 @@ def main(conn):
         print("writing CSV to ", csv_path)
         # Add # header roi, shape, other-col-types...
         with open(csv_path, "w") as csv_out:
-            csv_out.write("# header roi,l,l," + ",".join(dots_col_types) + "\n")
+            csv_out.write("# header roi,l,image," + ",".join(dots_col_types) + "\n")
         df2_dots.to_csv(csv_path, mode="a", index=False)
         # Create OMERO.table from csv
         populate_metadata(dataset, csv_path, dots_file_name.replace(".csv", ""))
