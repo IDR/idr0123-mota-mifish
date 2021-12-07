@@ -118,7 +118,6 @@ def process_image(conn, image, df_bed):
     roi_names = list(rows_by_roi.keys())
     if len(roi_names) == 0:
         print("No Rows found for Image")
-        return
 
     roi_names.sort()
     bed_rows = []
