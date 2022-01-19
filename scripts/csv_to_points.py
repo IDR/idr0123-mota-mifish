@@ -219,7 +219,7 @@ def main(conn):
                 row['shape'] = -1
 
                 if len(matching_rows) > 1:
-                    print("---------- Multiple BED rows found for DOT!!--------------")
+                    print("---- %s BED rows found for shape:--- %s" % (len(matching_rows), row['shape']))
                 # Find roi, shape and iamge ID
                 for r_index, bed_row in matching_rows.iterrows():
                     for col in ['roi', 'shape']:
