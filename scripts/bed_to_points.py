@@ -31,7 +31,8 @@ DATASET_NAMES = [
     "Dataset9_iFISH chr10 spotting Replicate 2"
 ]
 
-BED_NAME = "experimentA/BED_files/Dataset%s.bed"
+BED_PATH = "experimentA/BED_files/Dataset%s.bed"
+BED_NAME = "Dataset%s.bed"
 
 probes = {
     "a488": {"label": "AF488", "color": (255, 0, 0)},
@@ -40,6 +41,13 @@ probes = {
     "Cy5": {"label": "AT647N", "color": (0, 255, 255)},
     "a700": {"label": "AF700", "color": (255, 0, 255)},
     "ir800": {"label": "AF790", "color": (50, 50, 255)}
+}
+
+# Convert from BED names to 4DN naming convention
+rename_columns = {
+    "chrom": "Chrom",
+    "chromStart": "Chrom_Start",
+    "chromEnd": "Chrom_End"
 }
 
 def create_roi(updateService, image, shapes, name=None):
@@ -75,24 +83,19 @@ def get_omero_col_type(dtype):
     return "s"
 
 
-def populate_metadata(image, file_path, file_name):
+def populate_metadata(target_obj, file_path, table_name):
     """Parses csv to create OMERO.table"""
-    client = image._conn.c
+    client = target_obj._conn.c
     ctx = ParsingContext(
-        client, image._obj, file=file_path, allow_nan=True
+        client, target_obj._obj, file=file_path, allow_nan=True,
+        table_name=table_name
     )
     ctx.parse()
 
 
-def process_image(conn, image, df, dataset_name):
+def process_image(conn, image, df):
 
     updateService = conn.getUpdateService()
-
-    col_types = [get_omero_col_type(t) for t in df.dtypes]
-    col_names = list(df.columns)
-
-    # Create output table with extra columns
-    df2 = pandas.DataFrame(columns=(["roi", "shape"] + col_names))
 
     print(image.name)
     cell_id = image.name.split("[")[1].replace("]", "")
@@ -112,6 +115,7 @@ def process_image(conn, image, df, dataset_name):
         return
 
     roi_names.sort()
+    metadata_rows = []
     for roi_key in roi_names:
         rows = rows_by_roi[roi_key]
         points = []
@@ -143,31 +147,47 @@ def process_image(conn, image, df, dataset_name):
             assert shape.theZ.val == decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)
             row["roi"] = roi.id.val
             row["shape"] = shape.id.val
-            df2 = df2.append(row)
+            row["image"] = image.id
+            metadata_rows.append(row)
 
-    csv_name = dataset_name + ".csv"
-    csv_path = os.path.join(tempfile.gettempdir(), csv_name)
-    # Add # header roi, shape, other-col-types...
-    with open(csv_path, "w") as csv_out:
-        csv_out.write("# header roi,l," + ",".join(col_types) + "\n")
-
-    df2.to_csv(csv_path, mode="a", index=False)
-
-    # Create OMERO.table from csv
-    populate_metadata(image, csv_path, csv_name)
+    return metadata_rows
 
 
 def main(conn):
 
     for count, dataset_name in enumerate(DATASET_NAMES):
-        bed_file = BED_NAME % (count + 1)
+        bed_file = BED_PATH % (count + 1)
+        bed_name = BED_NAME % (count + 1)
         dataset = conn.getObject("Dataset", attributes={"name": dataset_name})
         if dataset is None:
             continue
         df = pandas.read_csv(bed_file, delimiter="\t")
+        df = df.rename(columns=rename_columns)
+
+        col_types = [get_omero_col_type(t) for t in df.dtypes]
+        col_names = list(df.columns)
+        print("col_names", col_names)
+
+        # Create output table with extra columns
+        df2 = pandas.DataFrame(columns=(["roi", "shape", "image"] + col_names))
 
         for image in dataset.listChildren():
-            process_image(conn, image, df, dataset_name)
+            delete_rois(conn, image)
+            metadata_rows = process_image(conn, image, df)
+            for row in metadata_rows:
+                df2 = df2.append(row)
+
+        csv_name = dataset_name + ".csv"
+        csv_path = os.path.join(tempfile.gettempdir(), csv_name)
+        # Add # header roi, shape, other-col-types...
+        print("write csv", csv_path)
+        with open(csv_path, "w") as csv_out:
+            csv_out.write("# header roi,l,image," + ",".join(col_types) + "\n")
+
+        df2.to_csv(csv_path, mode="a", index=False)
+
+        # Create OMERO.table from csv
+        populate_metadata(dataset, csv_path, bed_name)
 
 # Usage:
 # cd idr0123-mota-mifish
@@ -177,4 +197,4 @@ if __name__ == "__main__":
     with omero.cli.cli_login() as c:
         conn = omero.gateway.BlitzGateway(client_obj=c.get_client())
         main(conn)
-        conn.close()
+        # conn.close()
