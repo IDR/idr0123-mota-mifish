@@ -1,0 +1,62 @@
+---
+channels:
+    1:
+        active: true
+        color: FF0000
+        end: 15933.0
+        label: AF488
+        max: 65535.0
+        min: 0.0
+        start: 6139.0
+    2:
+        active: true
+        color: 00FF00
+        end: 15052.0
+        label: AT542
+        max: 65535.0
+        min: 0.0
+        start: 6557.0
+    3:
+        active: true
+        color: FFFF00
+        end: 14683.0
+        label: AF594
+        max: 65535.0
+        min: 0.0
+        start: 8240.0
+    4:
+        active: true
+        color: 00FFFF
+        end: 10640.0
+        label: AT647N
+        max: 65535.0
+        min: 0.0
+        start: 995.0
+    5:
+        active: true
+        color: FF00FF
+        end: 9216.0
+        label: AF700
+        max: 65535.0
+        min: 0.0
+        start: 717.0
+    6:
+        active: true
+        color: 0000FF
+        end: 7173.0
+        label: AF790
+        max: 65535.0
+        min: 0.0
+        start: 2749.0
+    7:
+        active: true
+        color: FFFFFF
+        end: 26659.0
+        label: DAPI
+        max: 65535.0
+        min: 0.0
+        start: 686.0
+greyscale: false
+t: 1
+version: 2
+z: 30
