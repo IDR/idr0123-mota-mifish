@@ -47,7 +47,10 @@ probes = {
 rename_columns = {
     "chrom": "Chrom",
     "chromStart": "Chrom_Start",
-    "chromEnd": "Chrom_End"
+    "chromEnd": "Chrom_End",
+    "x": "X",
+    "y": "Y",
+    "z": "Z"
 }
 
 def create_roi(updateService, image, shapes, name=None):
@@ -123,10 +126,10 @@ def process_image(conn, image, df):
             # create an ROI with single Point for each row
             point = omero.model.PointI()
             # Try switching x and y...
-            point.y = rdouble(row['x'])
-            point.x = rdouble(row['y'])
+            point.y = rdouble(row['X'])
+            point.x = rdouble(row['Y'])
             # We don't want Python3 behaviour of rounding .5 to even number - always round up
-            point.theZ = rint(int(decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)))
+            point.theZ = rint(int(decimal.Decimal(row['Z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)))
 
             point.textValue = rstring("BED Nuclei: %s" % row["Nucleus_ID"])
             point.strokeColor = rint(rgba_to_int(255, 255, 255))
@@ -143,7 +146,7 @@ def process_image(conn, image, df):
         print("Nuclei: %s, added %s shapes" % (roi_key, len(shapes)))
         for row, shape in zip(rows, shapes):
             # checks that the order of shapes is same as order of rows
-            assert shape.theZ.val == decimal.Decimal(row['z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)
+            assert shape.theZ.val == decimal.Decimal(row['Z']).quantize(decimal.Decimal('1'), rounding=decimal.ROUND_HALF_UP)
             row["roi"] = roi.id.val
             row["shape"] = shape.id.val
             row["image"] = image.id
