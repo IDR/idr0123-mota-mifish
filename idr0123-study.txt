@@ -37,7 +37,7 @@ Study PubMed ID
 
 Study Publication Title	Simultaneous visualization of DNA loci in single cells by combinatorial multi-color iFISH.									
 
-Study Author List	Mota A, Schweitzer M, Bienko M								
+Study Author List	Mota A, Schweitzer M, Wernersson E, Crosetto N, Bienko M								
 
 Study PMC ID											
 
@@ -51,7 +51,7 @@ Study Person Last Name	Bienko
 
 Study Person First Name	Magda										
 
-Study Person Email	rmagda.bienko@ki.se										
+Study Person Email	magda.bienko@ki.se										
 
 Study Person Address	Karolinska Institutet, SE									
 
@@ -61,7 +61,7 @@ Study Person Roles	supervisor
 # Study License and Data DOI																																	
 Study License	CC BY 4.0																																
 Study License URL																																	
-Study Copyright	# fill in																																
+Study Copyright	Mota et al.																																
 Study Data Publisher																																	
 Study Data DOI	
 
@@ -85,96 +85,8 @@ Comment[IDR Experiment Name]
 
 Experiment Sample Type	cell line
 
-Experiment Description	We designed 16 probes targeting 16 consecutive loci on chromosome 2 using iFISH4U. The 16 probes targetting different loci are spaced with 3 or 20 Mb in order to study relatively small genomic distances and compare them with larger distances. Furthermore, 10 loci are made of a combination of two colours alternating within the locus and 6 loci have only one colour. Replicate 1 			
-											
+Experiment Description	Dataset 1 and 2 are replicates of the same experimental design which consists in 16 probes targeting 16 consecutive loci on chromosome 2 using iFISH4U. The 16 probes targeting different loci are spaced with 3 or 20 Mb in order to study relatively small genomic distances and compare them with larger distances. Furthermore, 10 loci are made of a combination of two colours alternating within the locus and 6 loci have only one colour. Dataset 3 is a single colour experiment where one probe with alternated colours (AF488-AF594) was tested together with other two probes in different colours located in distinct genomic sites. There are 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N. Dataset 4 is a single colour experiment where one probe with alternated colours (AT542-AT647N) was tested together with other two probes in different colours located in distinct genomic sites. There are 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N. Dataset 5 consists in 23 probes targeting 23 consecutive loci on chromosome 1 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 4 probes with AT542, 4 probes with AF594, 4 probes with AT647N, 4 probes with AF700 and 4 probes with AF790. Dataset 6 and 7 are replicates of the same experimental design which 21 probes targeting 21 consecutive loci on chromosome 2 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 3 probes with AT542, 3 probes with AF594, 3 probes with AT647N, 6 probes with AF700 and 3 probes with AF790. Dataset 8 and 9 are replicates of the same experimental design which consists in 13 probes targeting 13 consecutive loci on chromosome 10 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 2 probes with AF488 dye, 2 probes with AT542, 3 probes with AF594, 2 probes with AT647N, 2 probes with AF700 and 2 probes with AF790.
 
-
-
-Experiment Number	2										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We designed 16 probes targeting 16 consecutive loci on chromosome 2 using iFISH4U. The 16 probes targetting different loci are spaced with 3 or 20 Mb in order to study relatively small genomic distances and compare them with larger distances. Furthermore, 10 loci are made of a combination of two colours alternating within the locus and 6 loci have only one colour. Replicate 2 			
-											
-											
-
-
-Experiment Number	3										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We designed 23 probes targeting 23 consecutive loci on chromosome 1 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 4 probes with AT542, 4 probes with AF594, 4 probes with AT647N, 4 probes with AF700 and 4 probes with AF790. Replicate 1    			
-
-
-
-
-Experiment Number	4										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We designed 21 probes targeting 21 consecutive loci on chromosome 2 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 3 probes with AT542, 3 probes with AF594, 3 probes with AT647N, 6 probes with AF700 and 3 probes with AF790. Replicate 1  			
-
-
-
-
-Experiment Number	5										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We designed 21 probes targeting 21 consecutive loci on chromosome 2 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 3 probes with AT542, 3 probes with AF594, 3 probes with AT647N, 6 probes with AF700 and 3 probes with AF790. Replicate 2
-
-
-
-
-Experiment Number	6										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We designed 13 probes targeting 13 consecutive loci on chromosome 10 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 2 probes with AF488 dye, 2 probes with AT542, 3 probes with AF594, 2 probes with AT647N, 2 probes with AF700 and 2 probes with AF790. Replicate 1
-
-
-
-
-Experiment Number	7										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We designed 13 probes targeting 13 consecutive loci on chromosome 10 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 2 probes with AF488 dye, 2 probes with AT542, 3 probes with AF594, 2 probes with AT647N, 2 probes with AF700 and 2 probes with AF790. Replicate 2
-
-
-
-
-Experiment Number	8										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We performed a single colour experiment where one probe with alternated colours (AF488-AF594) was tested together with other two probes in different colours located in distinct genomic sites. There are 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N.
-
-
-
-
-
-Experiment Number	9										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	We performed a single colour experiment where one probe with alternated colours (AT542-AT647N) was tested together with other two probes in different colours located in distinct genomic sites. There are 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N.
 
 
 
@@ -210,9 +122,9 @@ Quality Control Description
 
 # Protocols											
 
-Protocol Name	iFISH protocol	image aquistion and feature extraction protocol	data analysis protocol								
+Protocol Name	iFISH protocol	image acquisition and feature extraction protocol	data analysis protocol								
 
-Protocol Type	iFISH protocol	image aquistion and feature extraction protocol	data analysis protocol								
+Protocol Type	iFISH protocol	image acquisition and feature extraction protocol	data analysis protocol								
 
 Protocol Type Term Source REF	EFO	EFO										
 
