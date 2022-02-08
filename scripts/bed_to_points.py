@@ -34,14 +34,9 @@ DATASET_NAMES = [
 BED_PATH = "experimentA/BED_files/Dataset%s.bed"
 BED_NAME = "Dataset%s.bed"
 
-probes = {
-    "a488": {"label": "AF488", "color": (255, 0, 0)},
-    "tmr": {"label": "AT542", "color": (0, 255, 0)},
-    "a594": {"label": "AF594", "color": (255, 255, 0)},
-    "Cy5": {"label": "AT647N", "color": (0, 255, 255)},
-    "a700": {"label": "AF700", "color": (255, 0, 255)},
-    "ir800": {"label": "AF790", "color": (50, 50, 255)}
-}
+# 4DN Fish-Omics format for Chromatin Tracing - namespace for OMERO.table
+# Need to set manually - no option in populate metadata.
+NS_4DN = "4dn.fof-ct.master"
 
 # Convert from BED names to 4DN naming convention
 rename_columns = {
@@ -150,6 +145,7 @@ def process_image(conn, image, df):
             row["roi"] = roi.id.val
             row["shape"] = shape.id.val
             row["image"] = image.id
+            row["Spot_ID"] = shape.id.val       # 4DN fish-omics spec
             metadata_rows.append(row)
 
     return metadata_rows
@@ -171,7 +167,7 @@ def main(conn):
         print("col_names", col_names)
 
         # Create output table with extra columns
-        df2 = pandas.DataFrame(columns=(["roi", "shape", "image"] + col_names))
+        df2 = pandas.DataFrame(columns=(["roi", "shape", "image", "Spot_ID"] + col_names))
 
         for image in dataset.listChildren():
             delete_rois(conn, image)
@@ -184,7 +180,7 @@ def main(conn):
         # Add # header roi, shape, other-col-types...
         print("write csv", csv_path)
         with open(csv_path, "w") as csv_out:
-            csv_out.write("# header roi,l,image," + ",".join(col_types) + "\n")
+            csv_out.write("# header roi,l,image,l," + ",".join(col_types) + "\n")
 
         df2.to_csv(csv_path, mode="a", index=False)
 
