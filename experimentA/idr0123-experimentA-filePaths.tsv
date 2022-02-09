@@ -1,9 +1,9 @@
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:1_miFISH chr2 Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset1.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:2_miFISH chr2 Replicate 2	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset2.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:3_miFISH AF594-AF488 + AT542 + AT647N	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset3.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:4_miFISH AT647N-AT542 + AF594 + AF488	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset4.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:5_iFISH chr1 spotting Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset5.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:6_iFISH chr2 spotting Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset6.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:7_iFISH chr2 spotting Replicate 2	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset7.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:8_iFISH chr10 spotting Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset8.companion.omc
-Project:name:idr0123-mota-mifish/experimentA/Dataset:name:9_iFISH chr10 spotting Replicate 2	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset9.companion.omc
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:1_miFISH chr2 Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset1.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:2_miFISH chr2 Replicate 2	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset2.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:3_miFISH AF594-AF488 + AT542 + AT647N	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset3.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:4_miFISH AT647N-AT542 + AF594 + AF488	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset4.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:5_iFISH chr1 spotting Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset5.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:6_iFISH chr2 spotting Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset6.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:7_iFISH chr2 spotting Replicate 2	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset7.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:8_iFISH chr10 spotting Replicate 1	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset8.companion.ome
+Project:name:idr0123-mota-mifish/experimentA/Dataset:name:9_iFISH chr10 spotting Replicate 2	/uod/idr/filesets/idr0123-mota-mifish/20211026-ftp/Dataset9.companion.ome
