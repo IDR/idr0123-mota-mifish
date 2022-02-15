@@ -16,6 +16,8 @@ from omero.util.metadata_utils import NSBULKANNOTATIONSRAW
 """
 This script parses Dots_3Dcoordinates_miFISH_chr2_rep1.csv file, to create
 a Point for each row, on one of the 25 Dataset1 images
+
+NB: This script wasn't used in the end - ONLY bed_to_points.py was used
 """
 
 # project_name = "idr0123-mota-mifish/experimentA"
