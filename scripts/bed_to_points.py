@@ -20,15 +20,15 @@ a Point for each row, on each one of the 25 Dataset1 images
 
 # project_name = "idr0123-mota-mifish/experimentA"
 DATASET_NAMES = [
-    "Dataset1_miFISH chr2 Replicate 1",
-    "Dataset2_miFISH chr2 Replicate 2",
-    "Dataset3_miFISH with one dual-color probe AF594-AF488 and two single-color probes AT542 and AT647N",
-    "Dataset4_miFISH with one dual-color probe AT647N-AT542 and two single-color probes AF594 and AF488",
-    "Dataset5_iFISH chr1 spotting Replicate 1",
-    "Dataset6_iFISH chr2 spotting Replicate 1",
-    "Dataset7_iFISH chr2 spotting Replicate 2",
-    "Dataset8_iFISH chr10 spotting Replicate 1",
-    "Dataset9_iFISH chr10 spotting Replicate 2"
+    "1_miFISH chr2 Replicate 1",
+    "2_miFISH chr2 Replicate 2",
+    "3_miFISH AF594-AF488 + AT542 + AT647N",
+    "4_miFISH AT647N-AT542 + AF594 + AF488",
+    "5_iFISH chr1 spotting Replicate 1",
+    "6_iFISH chr2 spotting Replicate 1",
+    "7_iFISH chr2 spotting Replicate 2",
+    "8_iFISH chr10 spotting Replicate 1",
+    "9_iFISH chr10 spotting Replicate 2"
 ]
 
 BED_PATH = "experimentA/BED_files/Dataset%s.bed"
