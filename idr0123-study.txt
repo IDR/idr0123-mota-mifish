@@ -1,174 +1,28 @@
-"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"											
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.
+# STUDY DESCRIPTION SECTION
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details	
+	
+									# Study											Comment[IDR Study Accession]	idr0123										Study Title	Simultaneous visualization of DNA loci in single cells by combinatorial multi-color iFISH	Study Type	fluorescence in situ hybridization										Study Type Term Source REF	NCIT										Study Type Term Accession	NCIT_C17563									Study Description	We describe a dataset obtained by applying our recently developed iFISH pipeline to simultaneously visualize 16 small (size range: 62–73 kilobases, kb) evenly spaced DNA loci on chromosome 2 in human cells, in a single round of hybridization. We show how, using combinatorial color coding, multiple loci can be precisely 3D localized in single cells, and how inter-loci distances scale inversely with chromosome contact frequencies determined by Hi-C, as expected. We provide raw images and sub-pixel resolution 3D coordinates for nearly 100,000 dots. 					Study Key Words	fluorescence in situ hybridization	genome organization	DNA
+Study Organism	Homo sapiens		Study Organism Term Source REF	NCBITaxon										Study Organism Term Accession	9606										Study Experiments Number	1										Study External URL	
 
-# Study											
-
-Comment[IDR Study Accession]											
-
-Study Title	Simultaneous visualization of DNA loci in single cells by combinatorial multi-color iFISH.										
-
-Study Type	fluorescence in situ hybridization										
-
-Study Type Term Source REF											
-
-Study Type Term Accession											
-
-Study Description	We describe a dataset obtained by applying our recently developed iFISH pipeline to simultaneously visualize 16 small (size range: 62–73 kilobases, kb) evenly spaced DNA loci on chromosome 2 in human cells, in a single round of hybridization. We show how, using combinatorial color coding, multiple loci can be precisely 3D localized in single cells, and how inter-loci distances scale inversely with chromosome contact frequencies determined by Hi-C, as expected. We provide raw images and sub-pixel resolution 3D coordinates for nearly 100,000 dots. 
-									
-
-Study Key Words	fluorescence in situ hybridization, genome organization, DNA
-
-Study Organism	 Homo sapiens, hTERT-immortalized retinal pigment epithelial cell line (hTERT RPE-1)									
-
-Study Organism Term Source REF	NCBITaxon										
-
-Study Organism Term Accession											
-
-Study Experiments Number	9										
-
-Study External URL											
-
-Study Public Release Date											
-
-											
-
-# Study Publication											
-
-Study PubMed ID											
-
-Study Publication Title	Simultaneous visualization of DNA loci in single cells by combinatorial multi-color iFISH.									
-
-Study Author List	Mota A, Schweitzer M, Wernersson E, Crosetto N, Bienko M								
-
-Study PMC ID											
-
-Study DOI										
-
-											
-
-# Study Contacts											
-
-Study Person Last Name	Bienko										
-
-Study Person First Name	Magda										
-
-Study Person Email	magda.bienko@ki.se										
-
-Study Person Address	Karolinska Institutet, SE									
-
-Study Person Roles	supervisor										
-
-											
-# Study License and Data DOI																																	
-Study License	CC BY 4.0																																
-Study License URL																																	
-Study Copyright	Mota et al.																																
-Study Data Publisher																																	
+Study BioImage Archive Accession										Study Public Release Date																						# Study Publication											Study PubMed ID	35145120											Study Publication Title	Simultaneous visualization of DNA loci in single cells by combinatorial multi-color iFISH									Study Author List	Mota A, Schweitzer M, Wernersson E, Crosetto N, Bienko M				Study PMC ID											Study DOI	https://doi.org/10.1038/s41597-022-01139-2																		# Study Contacts											Study Person Last Name	Bienko										Study Person First Name	Magda										Study Person Email	magda.bienko@ki.se										Study Person Address	Karolinska Institutet, SE								Study Person Roles	supervisor																					# Study License and Data DOI																									
+Study License	CC BY 4.0																									
+Study License URL	https://creativecommons.org/licenses/by/4.0/																				
+Study Copyright	Mota et al																									
+Study Data Publisher	University of Dundee																							
 Study Data DOI	
 
-Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	OBI						
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi	OBI						Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/																	# EXPERIMENT SECTION				
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment													Experiment Number	1										Comment[IDR Experiment Name]	idr0123-mota-mifish/experimentA	Experiment Sample Type	cellExperiment Description	Datasets 1 and 2 are replicates of the same experimental design which consists of 16 probes targeting 16 consecutive loci on chromosome 2 using iFISH4U. The 16 probes targeting different loci are spaced with 3 or 20 Mb in order to study relatively small genomic distances and compare them with larger distances. Furthermore, 10 loci are made by a combination of two colours alternating within the locus and 6 loci have only one colour. Dataset 3 is a single colour experiment where one probe with alternated colours (AF488-AF594) was tested together with other two probes in different colours located in distinct genomic sites. There is 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N. Dataset 4 is a single colour experiment where one probe with alternated colours (AT542-AT647N) was tested together with two other probes in different colours located in distinct genomic sites. There is 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N. Dataset 5 consists of 23 probes targeting 23 consecutive loci on chromosome 1 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 4 probes with AT542, 4 probes with AF594, 4 probes with AT647N, 4 probes with AF700 and 4 probes with AF790. Datasets 6 and 7 are replicates of the same experimental design which consists of 21 probes targeting 21 consecutive loci on chromosome 2 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 3 probes with AT542, 3 probes with AF594, 3 probes with AT647N, 6 probes with AF700 and 3 probes with AF790. Datasets 8 and 9 are replicates of the same experimental design which consists of 13 probes targeting 13 consecutive loci on chromosome 10 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 2 probes with AF488 dye, 2 probes with AT542, 3 probes with AF594, 2 probes with AT647N, 2 probes with AF700 and 2 probes with AF790.
+Experiment Size	Datasets: 9	5D Images: 456	Average Image Dimension (XYZCT): 1024 × 1024 pixels and 0.2µm Z steps	Total Tb: 0.02							Experiment Example Images											Experiment Imaging Method	epifluorescence microscopy										Experiment Imaging Method Term Source REF	CHMO										Experiment Imaging Method Term Accession	CHMO_0002194		
 
-Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/	http://purl.obolibrary.org/obo/						
+Experiment Organism	
+	
+Experiment Organism Term Source REF	NCBITaxon	
+		
+Experiment Organism Term Accession								Experiment Comments
 
-											
-
-											
-
-"# Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. For multiple assays this section should be repeated."											
-
-# Screen; this section should be repeated if a study contains multiple screens											
-
-											
-
-Experiment Number	1										
-
-Comment[IDR Experiment Name]	
-
-Experiment Sample Type	cell line
-
-Experiment Description	Dataset 1 and 2 are replicates of the same experimental design which consists in 16 probes targeting 16 consecutive loci on chromosome 2 using iFISH4U. The 16 probes targeting different loci are spaced with 3 or 20 Mb in order to study relatively small genomic distances and compare them with larger distances. Furthermore, 10 loci are made of a combination of two colours alternating within the locus and 6 loci have only one colour. Dataset 3 is a single colour experiment where one probe with alternated colours (AF488-AF594) was tested together with other two probes in different colours located in distinct genomic sites. There are 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N. Dataset 4 is a single colour experiment where one probe with alternated colours (AT542-AT647N) was tested together with other two probes in different colours located in distinct genomic sites. There are 1 probe with AF488 dye, 1 probe with AT542, 1 probe with AF594 and 1 probe with AT647N. Dataset 5 consists in 23 probes targeting 23 consecutive loci on chromosome 1 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 4 probes with AT542, 4 probes with AF594, 4 probes with AT647N, 4 probes with AF700 and 4 probes with AF790. Dataset 6 and 7 are replicates of the same experimental design which 21 probes targeting 21 consecutive loci on chromosome 2 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 3 probes with AF488 dye, 3 probes with AT542, 3 probes with AF594, 3 probes with AT647N, 6 probes with AF700 and 3 probes with AF790. Dataset 8 and 9 are replicates of the same experimental design which consists in 13 probes targeting 13 consecutive loci on chromosome 10 using iFISH4U. The 23 loci are spaced with 10 Mb. There are 2 probes with AF488 dye, 2 probes with AT542, 3 probes with AF594, 2 probes with AT647N, 2 probes with AF700 and 2 probes with AF790.
-
-
-
-
-Experiment Size	Datasets: 9	5D Images: 456	Average Image Dimension (XYZCT): 1024 × 1024 pixels and 0.2µm Z steps	Total Tb: 0.02							
-
-Experiment Example Images											
-
-Experiment Imaging Method	epifluorescence microscopy										
-
-Experiment Imaging Method Term Source REF	Fbbi										
-
-Experiment Imaging Method Term Accession											
-
-Experiment Comments
-
-
-
-# assay files											
-
-Experiment Assay File	idr00XX-experimentA-assay.txt										
-
-Experiment Assay File Format	tab-delimited text										
-
-Assay Experimental Conditions	Probe Design										
-
-Assay Experimental Conditions Term Source REF											
-
-Assay Experimental Conditions Term Accession											
-
-Quality Control Description											
-
-											
-
-# Protocols											
-
-Protocol Name	iFISH protocol	image acquisition and feature extraction protocol	data analysis protocol								
-
-Protocol Type	iFISH protocol	image acquisition and feature extraction protocol	data analysis protocol								
-
-Protocol Type Term Source REF	EFO	EFO										
-
-Protocol Type Term Accession	EFO_0003789	EFO_0003969										
-
-Protocol Description	We amplified the oligos in each well by real-time PCR. Next, we converted each individual PCR product into RNA (IVT). We then converted the purified RNA into cDNA by reverse transcription (RT). We purified the ssDNA from RT and performed 3D DNA FISH as described by Gelali et al. Nature Communications 2019 and image in an epifluorescence microscope. We first incubated the samples for 1 h at 37 °C in a humidity chamber immersed in pre-hybridization buffer (PHB) containing 2x SSC/5x Denhardt’s solution/50mM sodium phosphate buffer/ 1mM EDTA/100 ng/μL ssDNA/50% formamide, pH 7.5–8.0. During this time, we prepared the first hybridization mix (HM-1) by mixing probes (final concentration is 0.05 nM of each oligo) at 1:9 v/v ratio with 1.1x first hybridization buffer (HB-1) containing 2.2x SSC/5.5x Denhardt’s solution/55mM sodium phosphate buffer/1.1mM EDTA/111 ng/μL ssDNA/55% formamide/11% dextran sulfate, pH 7.5–8.0. We removed the coverslip from PHB and dispensed the sample on top of 20 μL of HM-1 a microscope slide. We then sealed the coverslip with fixogum (MP Biomedical) and waited until the fixogum became solidified. Then we performed DNA denaturation for 2 min 30 s at 75 °C on a heating block. Afterwards, we incubated the sample for 15–18 h at 37 °C. The next day, we washed the coverslip two times, 5 min each at 65 °C in 0.2x SSC/0.2% Tween pre-warmed at 65 °C, inside a water bath, a brief wash in 4x SSC/0.2% Tween at RT, a brief wash in 2x SSC and one final short wash in 2x SSC/25% formamide. Next, we immersed the coverslip on 200 μL of the second hybridization mix (HM-2) containing the secondary fluorescently labeled oligonucleotides for the 6 colors, each at a final 20 nM concentration in HB-2 containing 2xSSC/25% formamide/10% Dextran sulfate/1 mg/mL E.coli tRNA/0.02% bovine serum albumin, and incubated the sample for 24 h at 30 °C. Afterwards, we washed the coverslip for 1 h at 30 °C in 2x SSC/25% formamide, followed by 30 min at 30 °C in 1.23 ng/mL Hoechst 33342 in 2x SSC/25% formamide. Lastly, we briefly rinsed the coverslip twice in 2x SSC, before mounting the sample with ProLongTM Diamond Antifade Mountant (Thermo Fisher). The clusters consisted in groups of dots that were considered for analysis and belonged to G1 cells which had two dots clusters clearly distinct. For each cluster, we extracted no more than 10 dots per colour, except for Alexa Fluor 790, for which we extracted up to 2, based on their intensities value and further match them based on their inter-colour distances, assuming the threshold computed from the datasets that have only one probe for each colour.								
-
-											
-
-# Phenotypes											
-
-Phenotype Name						
-
-Phenotype Description						
-
-Phenotype Score Type						
-
-Phenotype Term Source REF											
-
-Phenotype Term Name											
-
-Phenotype Term Accession											
-
-											
-
-											
-
-# Feature Level Data Files (give individual file details unless there is one file per well)											
-
-Feature Level Data File Name											
-
-Feature Level Data File Format											
-
-Feature Level Data File Description											
-
-Feature Level Data Column Name											
-
-Feature Level Data Column Description											
-
-											
-
-#  Processed Data Files											
-
-Processed Data File Name	iFISH_chr1.csv
+# assay files											Experiment Assay File	idr0123-experimentA-annotation										Experiment Assay File Format	tab-delimited text										Assay Experimental Conditions	Probe Design										Assay Experimental Conditions Term Source REF											Assay Experimental Conditions Term Accession											Quality Control Description																						# Protocols											Protocol Name	iFISH protocol	image acquisition and feature extraction protocol	data analysis protocol								Protocol Type	iFISH protocol	image acquisition and feature extraction protocol	data analysis protocol								Protocol Type Term Source REF	EFO	EFO										Protocol Type Term Accession	EFO_0003789	EFO_0003969										Protocol Description	We amplified the oligos in each well by real-time PCR. Next, we converted each individual PCR product into RNA (IVT). We then converted the purified RNA into cDNA by reverse transcription (RT). We purified the ssDNA from RT and performed 3D DNA FISH as described by Gelali et al. Nature Communications 2019 and image in an epifluorescence microscope. We first incubated the samples for 1 h at 37 °C in a humidity chamber immersed in pre-hybridization buffer (PHB) containing 2x SSC/5x Denhardt’s solution/50mM sodium phosphate buffer/ 1mM EDTA/100 ng/μL ssDNA/50% formamide, pH 7.5–8.0. During this time, we prepared the first hybridization mix (HM-1) by mixing probes (final concentration is 0.05 nM of each oligo) at 1:9 v/v ratio with 1.1x first hybridization buffer (HB-1) containing 2.2x SSC/5.5x Denhardt’s solution/55mM sodium phosphate buffer/1.1mM EDTA/111 ng/μL ssDNA/55% formamide/11% dextran sulfate, pH 7.5–8.0. We removed the coverslip from PHB and dispensed the sample on top of 20 μL of HM-1 a microscope slide. We then sealed the coverslip with fixogum (MP Biomedical) and waited until the fixogum became solidified. Then we performed DNA denaturation for 2 min 30 s at 75 °C on a heating block. Afterwards, we incubated the sample for 15–18 h at 37 °C. The next day, we washed the coverslip two times, 5 min each at 65 °C in 0.2x SSC/0.2% Tween pre-warmed at 65 °C, inside a water bath, a brief wash in 4x SSC/0.2% Tween at RT, a brief wash in 2x SSC and one final short wash in 2x SSC/25% formamide. Next, we immersed the coverslip on 200 μL of the second hybridization mix (HM-2) containing the secondary fluorescently labeled oligonucleotides for the 6 colors, each at a final 20 nM concentration in HB-2 containing 2xSSC/25% formamide/10% Dextran sulfate/1 mg/mL E.coli tRNA/0.02% bovine serum albumin, and incubated the sample for 24 h at 30 °C. Afterwards, we washed the coverslip for 1 h at 30 °C in 2x SSC/25% formamide, followed by 30 min at 30 °C in 1.23 ng/mL Hoechst 33342 in 2x SSC/25% formamide. Lastly, we briefly rinsed the coverslip twice in 2x SSC, before mounting the sample with ProLongTM Diamond Antifade Mountant (Thermo Fisher). The clusters consisted in groups of dots that were considered for analysis and belonged to G1 cells which had two dots clusters clearly distinct. For each cluster, we extracted no more than 10 dots per colour, except for Alexa Fluor 790, for which we extracted up to 2, based on their intensities value and further match them based on their inter-colour distances, assuming the threshold computed from the datasets that have only one probe for each colour.																			# Phenotypes											Phenotype Name						Phenotype Description						Phenotype Score Type						Phenotype Term Source REF											Phenotype Term Name											Phenotype Term Accession																																	# Feature Level Data Files (give individual file details unless there is one file per well)											Feature Level Data File Name											Feature Level Data File Format											Feature Level Data File Description											Feature Level Data Column Name											Feature Level Data Column Description																						#  Processed Data Files											Processed Data File Name	iFISH_chr1.csv
 
 Processed Data File Name	iFISH_chr2_rep1.csv
 
@@ -184,20 +38,6 @@ Processed Data File Name	miFISH_chr2_rep2.csv
 
 Processed Data File Name	miFISH_single_colour_overlap_AF594-AF488.csv
 
-Processed Data File Name	miFISH_single_colour_overlap_AT647N-AT542.csv									
-
-Processed Data File Format	comma-delimited text										
-
-Processed Data File Description	File containing the position coordinates for each locus.										
-
-Processed Data Column Name	File	Channel	Nuclei	x	y	z	Value	FWHM	SNR	Label	dilation	lamin_dist	lamin_dist_norm	centr_dist	centr_dist_norm	xnorm	ynorm	znorm
+Processed Data File Name	miFISH_single_colour_overlap_AT647N-AT542.csv									Processed Data File Format	comma-delimited text										Processed Data File Description	File containing the position coordinates for each locus.										Processed Data Column Name	File	Channel	Nuclei	x	y	z	Value	FWHM	SNR	Label	dilation	lamin_dist	lamin_dist_norm	centr_dist	centr_dist_norm	xnorm	ynorm	znorm
 	
-Phenotype Annotation Level	
-
-Processed Data Column Type	field of view identifier	channel	nuclei ID	data	data	data	data	data	data	data	data	data
-
-Processed Data Column Annotation Level
-
-Processed Data Column Description	Name of the file and field of view.	Channel name correspond to the equivalent colour.	Nuclei or cell identification number.	The x coordinate of the dot in pixel, multiply by 0.13 to get µm.	The y coordinate of the dot in pixel, multiply by 0.13 to get µm.	The z coordinate of the dot in pixel, multiply by 0.2 to get µm	Intensity value of the pixel.	Full weight half maximum	Signal-to-noise ratio	Label of the dot that belongs to the allele 1 or 2 which are separate clusters	Dilation of the nucleus staining segmentation	Lamina distance in pixels	Lamina distance normalised	Nucleus centre distance in pixels	Nucleus centre distance normalised	Normalised x position in the nucleus	Normalised y position in the nucleus	Normalised z position in the nucleus
-
-Processed Data Column Link To Library File	Experimental Condition [Probe Design]	
+Phenotype Annotation Level	Processed Data Column Type	field of view identifier	channel	nuclei ID	data	data	data	data	data	data	data	data	dataProcessed Data Column Annotation LevelProcessed Data Column Description	Name of the file and field of view.	Channel name correspond to the equivalent colour.	Nuclei or cell identification number.	The x coordinate of the dot in pixel, multiply by 0.13 to get µm.	The y coordinate of the dot in pixel, multiply by 0.13 to get µm.	The z coordinate of the dot in pixel, multiply by 0.2 to get µm	Intensity value of the pixel.	Full weight half maximum	Signal-to-noise ratio	Label of the dot that belongs to the allele 1 or 2 which are separate clusters	Dilation of the nucleus staining segmentation	Lamina distance in pixels	Lamina distance normalised	Nucleus centre distance in pixels	Nucleus centre distance normalised	Normalised x position in the nucleus	Normalised y position in the nucleus	Normalised z position in the nucleusProcessed Data Column Link To Assay File	Experimental Condition [Probe Design]	
